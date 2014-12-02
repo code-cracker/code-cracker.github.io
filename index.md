@@ -1,19 +1,57 @@
 ---
 layout: page
-title: Hello World, Code-crackers!
-tagline: Supporting tagline
+title: Welcome to Code Cracker!
 ---
 {% include JB/setup %}
 
-Hi! This is the official documentation of code-cracker you can help us! Send a pull request: [code-cracker.github.io repo](https://github.com/code-cracker/code-cracker.github.io)
+## Installing
 
-We use Jekyll with Jekyll bootstrap, to know more about read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+You may use CodeCracker in two ways: as an analyzer library that you install with Nuget into your project or as a Visual Studio extension.
+The way you want to use it depends on the scenario you are working on. You most likely want the Nuget package.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+If you want the analyzers to work during your build, and generate warnings and errors during the build, also on build servers, then you want
+to use the Nuget package. The package is available on nuget at [nuget.org/packages/codecracker](https://www.nuget.org/packages/codecracker).
+If you want to be able to configure which analyzers are being used in your project, and which ones you will ignore, and commit those
+changes to source control and share with your team, then you also want the Nuget package.
 
-## To-Do
+To install from Nuget:
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+```powershell
+Install-Package CodeCracker
+```
 
+Or use the Package Manager in Visual Studio.
 
+If you want global analyzers that will work on every project you open in Visual Studio, then you want the Extension.
+Grab the extension at the [Visual Studio Extensions Gallery](https://visualstudiogallery.msdn.microsoft.com/ab588981-91a5-478c-8e65-74d0ff450862).
+
+To build from source:
+
+```shell
+git clone https://github.com/code-cracker/code-cracker.git
+cd CodeCracker
+msbuild
+```
+
+Then add a reference to CodeCracker.dll from within the Analyzers node inside References, in Visual Studio.
+
+## Maintainers
+
+* [Giovanni Bassi](http://blog.lambda3.com.br/L3/giovannibassi/), aka Giggio, [Lambda3](http://www.lambda3.com.br), [@giovannibassi](http://twitter.com/giovannibassi)
+* [Elemar Jr.](http://elemarjr.net/), [Promob](http://promob.com/), [@elemarjr](http://twitter.com/elemarjr)
+* [Carlos dos Santos](http://carloscds.net/), [CDS Informática](http://www.cds-software.com.br/), [@cdssoftware](http://twitter.com/cdssoftware)
+* [Vinicius Hana](https://blog.lambda3.com.br/L3/vinicius-hana/), [Lambda3](http://www.lambda3.com.br), [@viniciushana](http://twitter.com/viniciushana)
+
+Contributors can be found at the [contributors](https://github.com/code-cracker/code-cracker/graphs/contributors) page on Github.
+
+## Contact
+
+Contact the team using the above information or talk to us directly on our Jabbr room [code-cracker](https://jabbr.net/#/rooms/code-cracker).
+
+## License
+
+This software is open source, licensed under the Apache License, Version 2.0.
+See [LICENSE.txt](https://github.com/code-cracker/code-cracker/blob/master/LICENSE.txt) for details.
+Check out the terms of the license before you contribute, fork, copy or do anything
+with the code. If you decide to contribute you agree to grant copyright of all your contribution to this project, and agree to
+mention clearly if do not agree to these terms. Your work will be licensed with the project at Apache V2, along the rest of the code.
