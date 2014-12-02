@@ -10,6 +10,9 @@
     <div class="content">
       {{ content }}
     </div>
+    {% unless page.author == empty %}
+    <div id="postBy"><strong>Post by {{ page.author }}</strong></div>
+    {% endunless %}
 
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
@@ -26,7 +29,7 @@
       {% include JB/tags_list %}
     </ul>
   {% endunless %}  
-  
+
     <hr>
     <ul class="pagination">
     {% if page.previous %}
