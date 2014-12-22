@@ -1,40 +1,36 @@
-# Jekyll-Bootstrap
+# Code Cracker Site and docs
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+This is the github repo for the Code Cracker site project. If you are looking for the repo for Code Cracker itself, go to
+[github.com/code-cracker/code-cracker](https://github.com/code-cracker/code-cracker).
 
-## Usage
+To see this site live go to [code-cracker.github.io](http://code-cracker.github.io/).
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+## Collaborating on the site
 
-## Version
+This site is done with [Jekyll Boostrap](http://jekyllbootstrap.com). Check their page on the tech. If you are on Windows
+you may want to use [Portable Jekyll](https://github.com/madhur/PortableJekyll) to save you **a lot** of time.
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+We **need** help with docs. Just reach us and we will let you know how to help.
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+We don't use the Github wiki on the Code Cracker project site, so this is also de docs site.
 
-## Contributing
+## Maintainers
 
+* [Giovanni Bassi](http://blog.lambda3.com.br/L3/giovannibassi/), aka Giggio, [Lambda3](http://www.lambda3.com.br), [@giovannibassi](http://twitter.com/giovannibassi)
+* [Elemar Jr.](http://elemarjr.net/), [Promob](http://promob.com/), [@elemarjr](http://twitter.com/elemarjr)
+* [Carlos dos Santos](http://carloscds.net/), [CDS Informática](http://www.cds-software.com.br/), [@cdssoftware](http://twitter.com/cdssoftware)
+* [Vinicius Hana](https://blog.lambda3.com.br/L3/vinicius-hana/), [Lambda3](http://www.lambda3.com.br), [@viniciushana](http://twitter.com/viniciushana)
 
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
+Contributors can be found at the [contributors](https://github.com/code-cracker/code-cracker.github.io/graphs/contributors) page on Github.
 
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+## Contact
 
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
-
+Please see our [contact page](http://code-cracker.github.io/contact.html).
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
+Code Cracker and this site is open source, licensed under the Apache License, Version 2.0.
+See [LICENSE.txt](https://github.com/code-cracker/code-cracker/blob/master/LICENSE.txt) for details.
+Check out the terms of the license before you contribute, fork, copy or do anything
+with the code. If you decide to contribute you agree to grant copyright of all your contribution to this project, and agree to
+mention clearly if do not agree to these terms. Your work will be licensed with the project at Apache V2, along the rest of the code.
