@@ -5,6 +5,7 @@ tagline: Here you will find a list of all our diagnostics
 ---
 
 |Diagnostic Id| Name |
+|[CC0001](/diagnostics/CC0001.html)|AlwaysUseVarAnalyzer|
 |[CC0006](/diagnostics/CC0006.html)|ForInArrayAnalyzer|
 |[CC0022](/diagnostics/CC0022.html)|DisposableVariableNotDisposedAnalyzer |
 |[CC0032](/diagnostics/CC0032.html)|DisposableFieldNotDisposedAnalyzer (Info - method call)|
