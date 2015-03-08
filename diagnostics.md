@@ -11,6 +11,10 @@ tagline: Here you will find a list of all our diagnostics
 |[CC0004](/diagnostics/CC0004.html)|EmptyCatchBlockAnalyzer|
 |[CC0005](/diagnostics/CC0005.html)|EmptyObjectInitializerAnalyzer|
 |[CC0006](/diagnostics/CC0006.html)|ForInArrayAnalyzer|
+|[CC0007](/diagnostics/CC0007.html)|IfReturnTrueAnalyzer|
+|[CC0008](/diagnostics/CC0008.html)|ObjectInitializerAnalyzer (local declaration)|
+|[CC0009](/diagnostics/CC0009.html)|ObjectInitializerAnalyzer (assignment)|
+|[CC0010](/diagnostics/CC0010.html)|RegexAnalyzer|
 |[CC0022](/diagnostics/CC0022.html)|DisposableVariableNotDisposedAnalyzer |
 |[CC0032](/diagnostics/CC0032.html)|DisposableFieldNotDisposedAnalyzer (Info - method call)|
 |[CC0033](/diagnostics/CC0033.html)|DisposableFieldNotDisposedAnalyzer (Warning - object creation)|
