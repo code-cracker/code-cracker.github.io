@@ -42,13 +42,7 @@ be a waste of effort.
 View examples at issues [#7](https://github.com/code-cracker/code-cracker/issues/7)
 and [#10](https://github.com/code-cracker/code-cracker/issues/10).
 
-#### Warning levels are:
-
-1. **Hidden**: Only used for refactorings. See [#66](https://github.com/code-cracker/code-cracker/issues/66) (and its comments) to understand why.
-1. **Info**: Just an alternative way (ex: replacing for with foreach). Clearly a matter of opinition. All options are correct.
-2. **Warning**: Code that could/should be improved. It is a code smell and most likely is wrong, but there are situations where the pattern is acceptable or desired.
-3. **Error**: Clearly a mistake (ex: throwing ArgumentException with an non-existent parameter). There is no situation where this code could be correct. There are no differences of opinion.
-
+#### Severity levels are at [the severity page](/severity.html)
 
 ### Definition of Done
 
