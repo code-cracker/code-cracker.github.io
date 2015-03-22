@@ -6,7 +6,7 @@ tagline: How you can help the Code Cracker project
 
 ## Issues and task board
 
-* The task board is at [Huboard](http://huboard.com/code-cracker/code-cracker/board).
+* The task board is at [Huboard](http://huboard.com/code-cracker/code-cracker/).
 * You can also check the [Github backlog](https://github.com/code-cracker/code-cracker/issues) directly.
 
 ## Introduction
