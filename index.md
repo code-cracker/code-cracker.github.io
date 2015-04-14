@@ -4,8 +4,6 @@ title: Welcome to Code Cracker!
 ---
 {% include JB/setup %}
 
-## Installing
-
 You may use CodeCracker in two ways: as an analyzer library that you install with Nuget into your project or as a Visual Studio extension.
 The way you want to use it depends on the scenario you are working on. You most likely want the Nuget package.
 
@@ -32,18 +30,8 @@ Or use the Package Manager in Visual Studio.
 There is also a version for both named `CodeCracker` only, but it makes not sense to get it, you should search for the C# or VB version.
 
 If you want the alpha builds that build on each push to the repo, add https://www.myget.org/F/codecrackerbuild/ to your nuget feed.
-We are now only pushing complete alpha releases to Nuget.org, and commit builds go to Myget.org.
+We only push complete releases to Nuget.org, and commit builds go to Myget.org.
 
 If you want global analyzers that will work on every project you open in Visual Studio, then you want the Extension.
 Grab the extension at the Visual Studio Extensions Gallery ([C#](https://visualstudiogallery.msdn.microsoft.com/ab588981-91a5-478c-8e65-74d0ff450862),
 [VB](https://visualstudiogallery.msdn.microsoft.com/1a5f9551-e831-4812-abd0-ac48603fc2c1)).
-
-To build from source:
-
-{% highlight bat %}
-git clone https://github.com/code-cracker/code-cracker.git
-cd CodeCracker
-msbuild
-{% endhighlight %}
-
-Then add a reference to CodeCracker.dll from within the Analyzers node inside References, in Visual Studio.
