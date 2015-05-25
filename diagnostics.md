@@ -30,3 +30,4 @@ tagline: All our diagnostics, ordered by category
 |[CC0032](/diagnostics/CC0032.html)|DisposableFieldNotDisposedAnalyzer (Info - method call)|
 |[CC0033](/diagnostics/CC0033.html)|DisposableFieldNotDisposedAnalyzer (Warning - object creation)|
 |[CC0052](/diagnostics/CC0052.html)|ReadonlyFieldAnalyzer|
+|[CC0089](/diagnostics/CC0089.html)|RemoveRedundantElseClauseAnalyzer|
