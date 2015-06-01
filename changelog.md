@@ -6,6 +6,8 @@ title: Change log
 
 {% for repo in site.github.public_repositories %}
 
+New repo: {{ repo.name }}
+
 (% if repo.name == 'code-cracker' }
 {% for release in site.github.releases %}
 
