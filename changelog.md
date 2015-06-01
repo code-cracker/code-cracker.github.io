@@ -4,6 +4,9 @@ title: Change log
 ---
 {% include JB/setup %}
 
+{% for repo in site.github.public_repositories %}
+
+(% if repo.name == 'code-cracker' }
 {% for release in site.github.releases %}
 
 # {{release.name}}
@@ -15,4 +18,6 @@ title: Change log
 
 ---
 
+{% endfor %}
+{% endif }
 {% endfor %}
