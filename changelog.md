@@ -4,6 +4,34 @@ title: Change log
 ---
 {% include JB/setup %}
 
+# 1.0.0-beta1
+[Download](https://github.com/code-cracker/code-cracker/releases/tag/v1.0.0-beta1)
+
+July 3rd, 2015
+
+This release is still targeting Visual Studio 2015 RC, as we wait for the RTM on July 20th.
+The only bug present at the time is one that is due to a bug on Roslyn itself.
+This is most likely our last pre-release as we prepare for the VS RTM. The next release will most likely be 1.0.0.
+
+## Stats:
+
+* 67 Analyzers in C#, 63 Code fixes, 3 Fix all
+* 23 Analyzers in VB, 18 Code fixes
+* 1529 tests
+* 91% code coverage
+
+## Known issues:
+
+* &#35;293 Incorrect diagnostic on NoPrivateReadonlyFieldAnalyzer (CC0074)
+
+When the analyzer/code fix impacts the resulting code we disable it by default, you need to enable those that are disabled to be able to use them.
+
+As usual, you should go to Nuget ([C#](https://www.nuget.org/packages/codecracker.CSharp/1.0.0-beta1), [VB](https://www.nuget.org/packages/codecracker.VisualBasic/1.0.0-beta1)) to get the packages or download the extension on the Visual Studio Extensions Gallery ([C#](https://visualstudiogallery.msdn.microsoft.com/ab588981-91a5-478c-8e65-74d0ff450862), [VB](https://visualstudiogallery.msdn.microsoft.com/1a5f9551-e831-4812-abd0-ac48603fc2c1)).
+
+For a list of what worked on see the [corresponding milestone](https://github.com/code-cracker/code-cracker/issues?q=milestone%3A1.0.0-beta1).
+
+---
+
 # 1.0.0-alpha6
 [Download](https://github.com/code-cracker/code-cracker/releases/tag/v1.0.0-alpha6)
 
