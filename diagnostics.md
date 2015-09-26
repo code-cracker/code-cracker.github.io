@@ -28,6 +28,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0006](/diagnostics/CC0006.html)|ForInArrayAnalyzer|
 |[CC0008](/diagnostics/CC0008.html)|ObjectInitializerAnalyzer (local declaration)|
 |[CC0009](/diagnostics/CC0009.html)|ObjectInitializerAnalyzer (assignment)|
+|[CC0013](/diagnostics/CC0013.html)|TernaryOperatorAnalyzer (return)|
 |[CC0048](/diagnostics/CC0048.html)|StringFormatAnalyzer|
 
 ## Usage
