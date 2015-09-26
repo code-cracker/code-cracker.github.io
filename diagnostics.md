@@ -10,6 +10,11 @@ tagline: All our diagnostics, ordered by category
 |[CC0003](/diagnostics/CC0003.html)|CatchEmptyAnalyzer|
 |[CC0004](/diagnostics/CC0004.html)|EmptyCatchBlockAnalyzer|
 
+## Naming
+
+|Diagnostic Id| Name |
+|[CC0012](/diagnostics/CC0012.html)|RethrowExceptionAnalyzer|
+
 ## Performance
 
 |Diagnostic Id| Name |
