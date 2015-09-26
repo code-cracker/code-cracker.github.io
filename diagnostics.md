@@ -9,6 +9,7 @@ tagline: All our diagnostics, ordered by category
 |Diagnostic Id| Name |
 |[CC0003](/diagnostics/CC0003.html)|CatchEmptyAnalyzer|
 |[CC0004](/diagnostics/CC0004.html)|EmptyCatchBlockAnalyzer|
+|[CC0016](/diagnostics/CC0016.html)|CopyEventToVariableBeforeFireAnalyzer|
 
 ## Naming
 
