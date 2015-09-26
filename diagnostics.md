@@ -30,6 +30,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0009](/diagnostics/CC0009.html)|ObjectInitializerAnalyzer (assignment)|
 |[CC0013](/diagnostics/CC0013.html)|TernaryOperatorAnalyzer (return)|
 |[CC0014](/diagnostics/CC0014.html)|TernaryOperatorAnalyzer (assignment)|
+|[CC0015](/diagnostics/CC0015.html)|UnnecessaryParenthesisAnalyzer|
 |[CC0048](/diagnostics/CC0048.html)|StringFormatAnalyzer|
 
 ## Usage
