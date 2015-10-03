@@ -39,7 +39,7 @@ When the analyzer/code fix impacts the resulting code we disable it by default, 
 
 As usual, you should go to Nuget ([C#](https://www.nuget.org/packages/codecracker.CSharp/1.0.0-rc3), [VB](https://www.nuget.org/packages/codecracker.VisualBasic/1.0.0-rc3)) to get the packages or download the extension on the Visual Studio Extensions Gallery ([C#](https://visualstudiogallery.msdn.microsoft.com/ab588981-91a5-478c-8e65-74d0ff450862), [VB](https://visualstudiogallery.msdn.microsoft.com/1a5f9551-e831-4812-abd0-ac48603fc2c1)).
 
-For a list of what worked on see the [corresponding milestone](https://github.com/code-cracker/code-cracker/issues?q=milestone%3A1.0.0-rc3) and the detailed [changelog](https://github.com/code-cracker/code-cracker/blob/50d099029200892026093d0d2e70e1023c7fc75e/CHANGELOG.md). For the commits, see the [full changelog](https://github.com/code-cracker/code-cracker/compare/v1.0.0-rc2...v1.0.0-rc3).
+For a list of what worked on see the [corresponding milestone](https://github.com/code-cracker/code-cracker/issues?q=milestone%3A1.0.0-rc3) and the detailed [changelog](https://github.com/code-cracker/code-cracker/blob/d303e7d534a29d940194a62d07235dd40574a1ca/CHANGELOG.md). For the commits, see the [full changelog](https://github.com/code-cracker/code-cracker/compare/v1.0.0-rc2...v1.0.0-rc3).
 
 ---
 
