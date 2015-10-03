@@ -4,6 +4,45 @@ title: Change log
 ---
 {% include JB/setup %}
 
+# 1.0.0-rc3
+[Download](https://github.com/code-cracker/code-cracker/releases/tag/v1.0.0-rc3)
+
+October 2nd, 2015
+
+This is an stabilization release, with several bug fixes. There is only one known bug, and the analyzer that is affected is disabled.
+We will continue to focus on stabilization until 1.0.0 is ready.
+Any new fixes will end up on the `master` branch.
+New analyzers and fixers will continue to go on the `vnext` branch and will not be on our `1.0.0` release.
+
+This release is still targetting the final version of Visual Studio 2015 (RTM, version `14.0.23107.0 D14REL`), as will the next ones. This release targets the `1.0.0` version of the Roslyn API (Microsoft.CodeAnalysis.*).
+This release will not work on pre-release versions of VS 2015.
+
+There are no new analyzers or code fixes in this release.
+
+## Stats:
+
+* 68 Analyzers in C#, 65 Code fixes, 3 Fix all
+* 23 Analyzers in VB, 18 Code fixes
+* 1682 tests
+* 91% code coverage
+
+## Known issues:
+
+* &#35;468 CC0013 (user ternary) rule should be more careful with nullable types. (VB)
+* &#35;493 CC0009 eats pragmas and trivia
+* &#35;496 'TernaryOperatorWithAddignmentCodeFixProvider' encountered and error (CC0013 and CC0014)
+* &#35;501 BUG on CC0008 and CC0009 (ObjectInitializer) when used with collection
+* &#35;514 CC0017 Change to auto property fix all not working
+* &#35;521 CC0013 Should check for a common type and cast is necessary
+
+When the analyzer/code fix impacts the resulting code we disable it by default, you need to enable those that are disabled to be able to use them.
+
+As usual, you should go to Nuget ([C#](https://www.nuget.org/packages/codecracker.CSharp/1.0.0-rc3), [VB](https://www.nuget.org/packages/codecracker.VisualBasic/1.0.0-rc3)) to get the packages or download the extension on the Visual Studio Extensions Gallery ([C#](https://visualstudiogallery.msdn.microsoft.com/ab588981-91a5-478c-8e65-74d0ff450862), [VB](https://visualstudiogallery.msdn.microsoft.com/1a5f9551-e831-4812-abd0-ac48603fc2c1)).
+
+For a list of what worked on see the [corresponding milestone](https://github.com/code-cracker/code-cracker/issues?q=milestone%3A1.0.0-rc3) and the detailed [changelog](https://github.com/code-cracker/code-cracker/blob/50d099029200892026093d0d2e70e1023c7fc75e/CHANGELOG.md). For the commits, see the [full changelog](https://github.com/code-cracker/code-cracker/compare/v1.0.0-rc2...v1.0.0-rc3).
+
+---
+
 # 1.0.0-rc2
 [Download](https://github.com/code-cracker/code-cracker/releases/tag/v1.0.0-rc2)
 
