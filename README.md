@@ -9,6 +9,7 @@ To see this site live go to [code-cracker.github.io](http://code-cracker.github.
 
 This site is done with [Jekyll Boostrap](http://jekyllbootstrap.com). Check their page on the tech. If you are on Windows
 you may want to use [Portable Jekyll](https://github.com/madhur/PortableJekyll) to save you **a lot** of time.
+If you decide to use Portable Jekyll, checkout the tag `2.5.2`, as we are not on `3.0.0` yet.
 
 We **need** help with docs. Just reach us and we will let you know how to help.
 
