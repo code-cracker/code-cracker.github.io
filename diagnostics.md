@@ -33,6 +33,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0014](/diagnostics/CC0014.html)|TernaryOperatorAnalyzer (assignment)|
 |[CC0015](/diagnostics/CC0015.html)|UnnecessaryParenthesisAnalyzer|
 |[CC0048](/diagnostics/CC0048.html)|StringFormatAnalyzer|
+|[CC0017](/diagnostics/CC0017.html)|SwitchToAutoPropAnalyzer|
 
 ## Usage
 
