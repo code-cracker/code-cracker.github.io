@@ -36,6 +36,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0017](/diagnostics/CC0017.html)|SwitchToAutoPropAnalyzer|
 |[CC0018](/diagnostics/CC0018.html)|ExistenceOperatorAnalyzer|
 |[CC0019](/diagnostics/CC0019.html)|ConvertToSwitchAnalyzer|
+|[CC0020](/diagnostics/CC0020.html)|ConvertLambdaExpressionToMethodGroupAnalyzer|
 
 ## Usage
 
