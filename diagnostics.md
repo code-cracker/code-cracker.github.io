@@ -10,6 +10,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0003](/diagnostics/CC0003.html)|CatchEmptyAnalyzer|
 |[CC0004](/diagnostics/CC0004.html)|EmptyCatchBlockAnalyzer|
 |[CC0016](/diagnostics/CC0016.html)|CopyEventToVariableBeforeFireAnalyzer|
+|[CC0021](/diagnostics/CC0021.html)|NameOfAnalyzer|
 
 ## Naming
 
@@ -33,6 +34,10 @@ tagline: All our diagnostics, ordered by category
 |[CC0014](/diagnostics/CC0014.html)|TernaryOperatorAnalyzer (assignment)|
 |[CC0015](/diagnostics/CC0015.html)|UnnecessaryParenthesisAnalyzer|
 |[CC0048](/diagnostics/CC0048.html)|StringFormatAnalyzer|
+|[CC0017](/diagnostics/CC0017.html)|SwitchToAutoPropAnalyzer|
+|[CC0018](/diagnostics/CC0018.html)|ExistenceOperatorAnalyzer|
+|[CC0019](/diagnostics/CC0019.html)|ConvertToSwitchAnalyzer|
+|[CC0020](/diagnostics/CC0020.html)|ConvertLambdaExpressionToMethodGroupAnalyzer|
 
 ## Usage
 
