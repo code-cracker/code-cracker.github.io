@@ -25,6 +25,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0011](/diagnostics/CC0011.html)|RemoveWhereWhenItIsPossibleAnalyzer|
 |[CC0023](/diagnostics/CC0023.html)|SealedAttributeAnalyzer|
 |[CC0025](/diagnostics/CC0025.html)|EmptyFinalizerAnalyzer|
+|[CC0030](/diagnostics/CC0030.html)|MakeLocalVariableConstWhenItIsPossibleAnalyzer|
 
 ## Style
 
