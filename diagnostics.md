@@ -21,6 +21,7 @@ tagline: All our diagnostics, ordered by category
 
 |Diagnostic Id| Name |
 |[CC0011](/diagnostics/CC0011.html)|RemoveWhereWhenItIsPossibleAnalyzer|
+|[CC0023](/diagnostics/CC0023.html)|SealedAttributeAnalyzer|
 
 ## Style
 
