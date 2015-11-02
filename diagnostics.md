@@ -17,6 +17,7 @@ tagline: All our diagnostics, ordered by category
 
 |Diagnostic Id| Name |
 |[CC0012](/diagnostics/CC0012.html)|RethrowExceptionAnalyzer|
+|[CC0029](/diagnostics/CC0029.html)|DisposablesShouldCallSuppressFinalizeAnalyzer|
 
 ## Performance
 
