@@ -11,16 +11,22 @@ tagline: All our diagnostics, ordered by category
 |[CC0004](/diagnostics/CC0004.html)|EmptyCatchBlockAnalyzer|
 |[CC0016](/diagnostics/CC0016.html)|CopyEventToVariableBeforeFireAnalyzer|
 |[CC0021](/diagnostics/CC0021.html)|NameOfAnalyzer|
+|[CC0024](/diagnostics/CC0024.html)|StaticConstructorExceptionAnalyzer|
+|[CC0031](/diagnostics/CC0031.html)|UseInvokeMethodToFireEventAnalyzer|
 
 ## Naming
 
 |Diagnostic Id| Name |
 |[CC0012](/diagnostics/CC0012.html)|RethrowExceptionAnalyzer|
+|[CC0029](/diagnostics/CC0029.html)|DisposablesShouldCallSuppressFinalizeAnalyzer|
 
 ## Performance
 
 |Diagnostic Id| Name |
 |[CC0011](/diagnostics/CC0011.html)|RemoveWhereWhenItIsPossibleAnalyzer|
+|[CC0023](/diagnostics/CC0023.html)|SealedAttributeAnalyzer|
+|[CC0025](/diagnostics/CC0025.html)|EmptyFinalizerAnalyzer|
+|[CC0030](/diagnostics/CC0030.html)|MakeLocalVariableConstWhenItIsPossibleAnalyzer|
 
 ## Style
 
@@ -46,6 +52,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0007](/diagnostics/CC0007.html)|IfReturnTrueAnalyzer|
 |[CC0010](/diagnostics/CC0010.html)|RegexAnalyzer|
 |[CC0022](/diagnostics/CC0022.html)|DisposableVariableNotDisposedAnalyzer |
+|[CC0026](/diagnostics/CC0026.html)|CallExtensionMethodAsExtensionAnalyzer|
 |[CC0032](/diagnostics/CC0032.html)|DisposableFieldNotDisposedAnalyzer (Info - method call)|
 |[CC0033](/diagnostics/CC0033.html)|DisposableFieldNotDisposedAnalyzer (Warning - object creation)|
 |[CC0052](/diagnostics/CC0052.html)|ReadonlyFieldAnalyzer|
