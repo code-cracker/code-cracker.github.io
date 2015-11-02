@@ -49,6 +49,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0007](/diagnostics/CC0007.html)|IfReturnTrueAnalyzer|
 |[CC0010](/diagnostics/CC0010.html)|RegexAnalyzer|
 |[CC0022](/diagnostics/CC0022.html)|DisposableVariableNotDisposedAnalyzer |
+|[CC0026](/diagnostics/CC0026.html)|CallExtensionMethodAsExtensionAnalyzer|
 |[CC0032](/diagnostics/CC0032.html)|DisposableFieldNotDisposedAnalyzer (Info - method call)|
 |[CC0033](/diagnostics/CC0033.html)|DisposableFieldNotDisposedAnalyzer (Warning - object creation)|
 |[CC0052](/diagnostics/CC0052.html)|ReadonlyFieldAnalyzer|
