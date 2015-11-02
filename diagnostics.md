@@ -12,6 +12,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0016](/diagnostics/CC0016.html)|CopyEventToVariableBeforeFireAnalyzer|
 |[CC0021](/diagnostics/CC0021.html)|NameOfAnalyzer|
 |[CC0024](/diagnostics/CC0024.html)|StaticConstructorExceptionAnalyzer|
+|[CC0031](/diagnostics/CC0031.html)|UseInvokeMethodToFireEventAnalyzer|
 
 ## Naming
 
