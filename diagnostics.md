@@ -43,6 +43,8 @@ tagline: All our diagnostics, ordered by category
 |[CC0018](/diagnostics/CC0018.html)|ExistenceOperatorAnalyzer|
 |[CC0019](/diagnostics/CC0019.html)|ConvertToSwitchAnalyzer|
 |[CC0020](/diagnostics/CC0020.html)|ConvertLambdaExpressionToMethodGroupAnalyzer|
+|[CC0037](/diagnostics/CC0037.html)|RemoveCommentedCodeAnalyzer|
+|[CC0038](/diagnostics/CC0038.html)|ConvertToExpressionBodiedMemberAnalyzer|
 |[CC0048](/diagnostics/CC0048.html)|StringFormatAnalyzer|
 
 ## Usage
@@ -55,5 +57,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0026](/diagnostics/CC0026.html)|CallExtensionMethodAsExtensionAnalyzer|
 |[CC0032](/diagnostics/CC0032.html)|DisposableFieldNotDisposedAnalyzer (Info - method call)|
 |[CC0033](/diagnostics/CC0033.html)|DisposableFieldNotDisposedAnalyzer (Warning - object creation)|
+|[CC0034](/diagnostics/CC0034.html)|RedundantFieldAssignmentAnalyzer|
 |[CC0052](/diagnostics/CC0052.html)|ReadonlyFieldAnalyzer|
+|[CC0057](/diagnostics/CC0057.html)|UnusedParametersAnalyzer|
 |[CC0089](/diagnostics/CC0089.html)|RemoveRedundantElseClauseAnalyzer|
