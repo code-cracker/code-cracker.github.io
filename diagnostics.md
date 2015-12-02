@@ -44,6 +44,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0019](/diagnostics/CC0019.html)|ConvertToSwitchAnalyzer|
 |[CC0020](/diagnostics/CC0020.html)|ConvertLambdaExpressionToMethodGroupAnalyzer|
 |[CC0037](/diagnostics/CC0037.html)|RemoveCommentedCodeAnalyzer|
+|[CC0038](/diagnostics/CC0038.html)|ConvertToExpressionBodiedMemberAnalyzer|
 |[CC0048](/diagnostics/CC0048.html)|StringFormatAnalyzer|
 
 ## Usage
