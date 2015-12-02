@@ -55,6 +55,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0026](/diagnostics/CC0026.html)|CallExtensionMethodAsExtensionAnalyzer|
 |[CC0032](/diagnostics/CC0032.html)|DisposableFieldNotDisposedAnalyzer (Info - method call)|
 |[CC0033](/diagnostics/CC0033.html)|DisposableFieldNotDisposedAnalyzer (Warning - object creation)|
+|[CC0034](/diagnostics/CC0034.html)|RedundantFieldAssignmentAnalyzer|
 |[CC0052](/diagnostics/CC0052.html)|ReadonlyFieldAnalyzer|
 |[CC0057](/diagnostics/CC0057.html)|UnusedParametersAnalyzer|
 |[CC0089](/diagnostics/CC0089.html)|RemoveRedundantElseClauseAnalyzer|
