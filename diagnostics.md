@@ -67,3 +67,4 @@ tagline: All our diagnostics, ordered by category
 
 |Diagnostic Id| Name |
 |[CC0048](/diagnostics/CC0042.html)|InvertForAnalyzer|
+|[CC0048](/diagnostics/CC0043.html)|ChangeAnyToAllAnalyzer|
