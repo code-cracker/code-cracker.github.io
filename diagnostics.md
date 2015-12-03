@@ -66,5 +66,5 @@ tagline: All our diagnostics, ordered by category
 ## Refactoring
 
 |Diagnostic Id| Name |
-|[CC0048](/diagnostics/CC0042.html)|InvertForAnalyzer|
-|[CC0048](/diagnostics/CC0043.html)|ChangeAnyToAllAnalyzer|
+|[CC0042](/diagnostics/CC0042.html)|InvertForAnalyzer|
+|[CC0043](/diagnostics/CC0043.html)|ChangeAnyToAllAnalyzer|
