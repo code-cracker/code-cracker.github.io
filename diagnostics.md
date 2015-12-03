@@ -27,6 +27,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0023](/diagnostics/CC0023.html)|SealedAttributeAnalyzer|
 |[CC0025](/diagnostics/CC0025.html)|EmptyFinalizerAnalyzer|
 |[CC0030](/diagnostics/CC0030.html)|MakeLocalVariableConstWhenItIsPossibleAnalyzer|
+|[CC0039](/diagnostics/CC0039.html)|StringBuilderInLoopAnalyzer|
 
 ## Style
 
