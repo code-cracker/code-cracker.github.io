@@ -62,3 +62,8 @@ tagline: All our diagnostics, ordered by category
 |[CC0052](/diagnostics/CC0052.html)|ReadonlyFieldAnalyzer|
 |[CC0057](/diagnostics/CC0057.html)|UnusedParametersAnalyzer|
 |[CC0089](/diagnostics/CC0089.html)|RemoveRedundantElseClauseAnalyzer|
+
+## Refactoring
+
+|Diagnostic Id| Name |
+|[CC0048](/diagnostics/CC0042.html)|InvertForAnalyzer|
