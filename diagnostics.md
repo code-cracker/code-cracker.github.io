@@ -27,6 +27,7 @@ tagline: All our diagnostics, ordered by category
 |[CC0023](/diagnostics/CC0023.html)|SealedAttributeAnalyzer|
 |[CC0025](/diagnostics/CC0025.html)|EmptyFinalizerAnalyzer|
 |[CC0030](/diagnostics/CC0030.html)|MakeLocalVariableConstWhenItIsPossibleAnalyzer|
+|[CC0039](/diagnostics/CC0039.html)|StringBuilderInLoopAnalyzer|
 
 ## Style
 
@@ -61,3 +62,9 @@ tagline: All our diagnostics, ordered by category
 |[CC0052](/diagnostics/CC0052.html)|ReadonlyFieldAnalyzer|
 |[CC0057](/diagnostics/CC0057.html)|UnusedParametersAnalyzer|
 |[CC0089](/diagnostics/CC0089.html)|RemoveRedundantElseClauseAnalyzer|
+
+## Refactoring
+
+|Diagnostic Id| Name |
+|[CC0042](/diagnostics/CC0042.html)|InvertForAnalyzer|
+|[CC0043](/diagnostics/CC0043.html)|ChangeAnyToAllAnalyzer|
