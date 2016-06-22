@@ -16,13 +16,13 @@ changes to source control and share with your team, then you also want the Nuget
 To install from Nuget, for the C# version:
 
 {% highlight powershell %}
-Install-Package CodeCracker.CSharp -IncludePrerelease
+Install-Package CodeCracker.CSharp
 {% endhighlight %}
 
 Or for the Visual Basic version:
 
 {% highlight powershell %}
-Install-Package CodeCracker.VisualBasic -IncludePrerelease
+Install-Package CodeCracker.VisualBasic
 {% endhighlight %}
 
 Or use the Package Manager in Visual Studio.
