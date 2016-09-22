@@ -59,8 +59,10 @@ tagline: All our diagnostics, ordered by category
 |[CC0032](/diagnostics/CC0032.html)|DisposableFieldNotDisposedAnalyzer (Info - method call)|
 |[CC0033](/diagnostics/CC0033.html)|DisposableFieldNotDisposedAnalyzer (Warning - object creation)|
 |[CC0034](/diagnostics/CC0034.html)|RedundantFieldAssignmentAnalyzer|
+|[CC0049](/diagnostics/CC0049.html)|SimplifyRedundantBooleanComparisonsAnalyzer|
 |[CC0052](/diagnostics/CC0052.html)|ReadonlyFieldAnalyzer|
 |[CC0057](/diagnostics/CC0057.html)|UnusedParametersAnalyzer|
+|[CC0068](/diagnostics/CC0068.html)|RemovePrivateMethodNeverUsedAnalyzer|
 |[CC0089](/diagnostics/CC0089.html)|RemoveRedundantElseClauseAnalyzer|
 
 ## Refactoring
@@ -70,3 +72,5 @@ tagline: All our diagnostics, ordered by category
 |[CC0043](/diagnostics/CC0043.html)|ChangeAnyToAllAnalyzer|
 |[CC0045](/diagnostics/CC0045.html)|StringRepresentationAnalyzer|
 |[CC0046](/diagnostics/CC0046.html)|StringRepresentationAnalyzer|
+|[CC0073](/diagnostics/CC0073.html)|AddBracesToSwitchSectionsAnalyzer|
+|[CC0082](/diagnostics/CC0082.html)|ComputeExpressionAnalyzer|
