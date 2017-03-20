@@ -74,3 +74,4 @@ tagline: All our diagnostics, ordered by category
 |[CC0046](/diagnostics/CC0046.html)|StringRepresentationAnalyzer|
 |[CC0073](/diagnostics/CC0073.html)|AddBracesToSwitchSectionsAnalyzer|
 |[CC0082](/diagnostics/CC0082.html)|ComputeExpressionAnalyzer|
+|[CC0125](/diagnostics/CC0125.html)|ReplaceWithGetterOnlyAutoPropertyAnalyzer|
